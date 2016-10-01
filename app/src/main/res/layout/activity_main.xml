@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.ff.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/number_id"
+        style="@style/commonstyle"
+        android:background="@color/bgcolors"
+        android:text="Numbers" />
+
+    <TextView
+        android:id="@+id/family_member"
+        style="@style/commonstyle"
+        android:background="@color/bgfamily"
+        android:text="Family member" />
+
+    <TextView
+        style="@style/commonstyle"
+        android:background="@color/bgnumber"
+        android:text="color" />
+
+    <TextView
+        style="@style/commonstyle"
+        android:background="@color/bgphrases"
+        android:text="Phrases" />
+
+
+</LinearLayout>
